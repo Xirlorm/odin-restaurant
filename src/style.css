@@ -1,0 +1,72 @@
+body {
+  background: #133;
+}
+
+body, div#container {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*----------- Hero -----------*/
+header {
+  background-color: #fff;
+  color: #444;
+}
+
+h1 {
+  text-align: center;
+  padding: 9px;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 38px;
+}
+
+header nav {
+  display: flex;
+  background-color: #ddd;
+}
+
+header nav li {
+  flex: 1;
+  text-align: center;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/*----------- Main -----------*/
+main {
+  text-align: center;
+  margin: 14px 8px;
+  padding: 8px;
+  color: #fff;
+  font-weight: 400;
+  background-color: rgba(100, 100, 100, 0.4);
+  border-radius: 6px;
+}
+
+h2{
+  padding: 6px;
+  margin: 8px;
+  font-weight: 500;
+  font-size: 27px;
+}
+
+p {
+  padding: 5px;
+  margin: 16px;
+  box-sizing: border-box;
+}
+
+
+address {
+  padding: 20px 2px;
+}
+
+address li {
+  padding: 14px;
+}
