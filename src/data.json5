@@ -1,0 +1,46 @@
+{
+  "menu": [
+    {
+      "name": "Cheeseburger",
+      "price": 16.79,
+      "discount": 13,
+      "image": "cheeseburger.jpg"
+    },
+    {
+      "name": "Chicken and Broccoli",
+      "price": 8.7,
+      "discount": 0,
+      "image": "chicken-and-broccoli.jpg"
+    },
+    {
+      "name": "Firecracker Chicken",
+      "price": 23.04,
+      "discount": 10,
+      "image": "firecracker-chicken.jpg"
+    },
+    {
+      "name": "Grilled Chicken",
+      "price": 15.70,
+      "discount": 10,
+      "image": "grilled-garlic-and-herb-chicken.jpg"
+    },
+    {
+      "name": "Ramen",
+      "price": 21.16,
+      "discount": 20,
+      "image": "ramen.jpg"
+    },
+    {
+      "name": "Teriyaki Chicken",
+      "price": 7.22,
+      "discount": 0,
+      "image": "teriyaki-chicken.jpg"
+    },
+    {
+      "name": "Tomato Spinach Sausage Pasta",
+      "price": 7.65,
+      "discount": 0,
+      "image": "tomato-spinach-sausage-pasta.jpg"
+    },
+  ]
+}
