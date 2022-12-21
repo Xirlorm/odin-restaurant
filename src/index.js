@@ -42,6 +42,7 @@ gotoHome()
 
 // Footer
 const footer = document.createElement('footer')
-footer.innerHTML = "<div>Images from Ginterest<\div>\
-  <div>Fonts from Google<\div>"
+footer.innerHTML = "<div>Images from Pinterest</div>\
+  <div>Fonts from Google</div>\
+  <div>Author: @xirl</div>"
 container.appendChild(footer)

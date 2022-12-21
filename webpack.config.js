@@ -1,4 +1,6 @@
 const path = require('path')
+
+const htmlWebpackPlugin = require('html-webpack-plugin')
 const json5 = require('json5')
 
 module.exports = {
@@ -9,6 +11,11 @@ module.exports = {
     menu: './src/pages/menu.js',
     'contact-info': './src/pages/contact-info.js',
   },
+  plugins: [
+    new htmlWebpackPlugin({
+      template: './src/index.html'
+    })
+  ],
   devtool: 'inline-source-map',
   devServer: {
     static: './dist',
@@ -16,6 +23,7 @@ module.exports = {
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    clean: true,
   },
   module: {
     rules: [
